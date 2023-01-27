@@ -503,15 +503,103 @@ footer .footer .f ul li a{
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media only screen and (max-width: 600px)  {
+@media only screen and (max-width: 600px) {
 
-    .banner{
+    body .nav{
+        height: 12vh;
+            justify-content: space-around;
+    }
+
+    body .nav img{
+        height: 12vh;
+    }
+
+    body .nav ul {
         display: none;
     }
 
-    .nav{
-        width: 10vw;
-        background: red;
+    #search{
+        margin-left: 0;
+    }
+    .main {
+        background-size: 180%;
     }
 
+    .mainContent{
+        padding: 4vh;
+    }
+
+    .main .mainContent h3 {
+        font-size: 3vh;
+    }
+    .main .mainContent p{
+        font-size: 3.2vw;
+        color: #c5c5c5;
+    }
+    
+    .btn{
+        height: 6vh;
+        width: 24vw;
+        font-size: 2.5vw;
+    }
+    
+    section{
+        flex-direction: column-reverse;
+    }
+    
+    .iframe-container{
+        height: 35vh;
+    }
+    
+    section .overview{
+        align-self: center;
+        width: 80%;
+        margin-top: 5%;   
+        height: fit-content; 
+    }
+
+    section .overview span{
+        font-size: 5.2vw;
+        display: block;
+        text-align: center;
+    }
+
+    section .overview ul{
+        padding-top: 2vh;
+    }
+
+    section .overview ul li{
+        font-size: 3vw;
+    }
+
+    section .mainSection{
+        width: 96%;
+        margin: auto;
+    }
+    section .mainSection p{
+        font-size: 2vh;
+    }
+
+    footer .footer{
+        flex-direction: column;
+    }
+
+    footer .footer .f {
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    footer .footer .f span{
+        display: block;
+        text-align: center;
+    }
+
+    footer .footer .f ul{
+        margin: 0;
+        width: 100%;
+    }
+
+    footer .footer .f ul li{
+        padding: 1vh;
+    }
 }
