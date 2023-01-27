@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(135deg,rgb(226, 255, 243),rgb(189, 255, 235));
+}
+
+body .form{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 70%;
+}
+
+body .form .imgbx{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .form .imgbx img{
+    width: 70vh;
+}
+
+body .form form{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+form img{
+    width: 17vh;
+}
+
+form :where(input, select, button){
+    height: 6vh;
+    width: 39vh;
+    border: none;
+    padding-left: 2vh;
+    outline: 0.1vh solid rgb(206, 206, 206);
+    border-radius: 0.5vh;
+}
+
+form button{
+    width: 42vh;
+    border: 0.2vh solid #6C63FF;
+}
+
+form button::before{
+    background: #6C63FF;
+}
+
+.bx{
+    padding-top: 1.5vh;
+    padding-right: 10vh;
+}
+
+@media only screen and (max-width: 700px) {
+    body .form .imgbx{
+        display: none;
+    }
+
+    body .form{
+        width: 90%;
+    }
+
+    body .form form {
+        width: 100%;
+        gap: 4vh;
+    }
+
+    .bx{
+        padding-top: 1.5vh;
+        padding-right: 0vh;
+    }
+    
+  }
