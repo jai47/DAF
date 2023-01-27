@@ -1,3 +1,4 @@
+alert('this is a demo website');
 let menu = document.getElementById('popup');
 let yearList = document.getElementById('yearList');
 let folder = document.getElementById('folder');
