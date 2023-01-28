@@ -580,6 +580,23 @@ footer .footer .f ul li a{
         font-size: 2vh;
     }
 
+    main .graduateLST{
+        flex-direction: column;
+        gap: 40px;
+    }
+    main .graduateLST .card{
+        min-width: 80%;
+    }
+
+    main .graduateLST .card .imgBx{
+        width: 26vw;
+        height: 26vw;
+    }
+
+    main .graduateLST #alumniFolder{
+        width: 50%
+    }
+        
     footer .footer{
         flex-direction: column;
     }
