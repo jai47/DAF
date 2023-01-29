@@ -267,7 +267,6 @@ form button::before{
     transform: skewX(30deg);
     background: #2081f0;
     transition: all 0.7s;
-    animation: color_change 5s linear infinite;
 }
 
 form button:hover::before{
@@ -282,4 +281,30 @@ form button:hover::before{
     padding-top: 0.5vh;
     cursor: pointer;
     font-size: 3vh;
+}
+
+@media only screen and (max-width: 600px){
+    .nav{
+        justify-content: center;
+    }
+
+    body .form{
+        width: 95%;
+        height: 80vh;
+        margin: auto;
+    }
+
+    .bgGradient{
+        display: none;
+    }
+
+    body .form .img{
+        display: none;
+    }
+
+    body .form form{
+        height: 95%;
+        width: 97%;
+        padding-bottom: 0;
+    }
 }
